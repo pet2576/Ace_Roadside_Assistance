@@ -11,7 +11,18 @@
 
 h1 {
   height: 900px;
-  background: darkslategray url('../img/Ace_Roadside_Service.jpg') no-repeat center / cover;
+  background: darkslategray url('../img/Ace_Roadside_Service_blk.png') no-repeat center / cover;
+  padding-top: 700px;
+  border-radius: 50%;
+  background-blend-mode: soft-light;
+}
+
+h2{
+  text-align: center;  
+}
+
+h3{
+  text-align: center;
 }
 
 /* Header Design -------------------- */
@@ -25,16 +36,15 @@ h1 {
 }
 
 .headline {  
-    font-size: 4em;
-    color: black;
+    font-size: 3em;
+    color: darkgray;
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
     line-height: 1.3; 
-    text-shadow: 0 5px 5px rgba(0,0,0,.8);
+    text-shadow: 0 1px 1px darkred;
+    text-emphasis: circle;
     margin: 12px 0 0;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
     padding-bottom: 100px;
   }
 
@@ -68,12 +78,14 @@ a:active {
 }
 
 .services {
-  float: left;
+  float: right;
 }
 
 .recent-news {
-  float: right;
+  float: left;
 }
+
+/* Float Clearfix ------------------ */
 
 .group:after {
   content: "";
